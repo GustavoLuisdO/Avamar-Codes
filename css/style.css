@@ -1,0 +1,178 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #icon-dell {
+        width: 70%;
+        margin: 1em auto;
+    }
+    
+    .navbar {
+        display: none;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 1.2em;
+    }
+    .jumbotron h2 {
+        font-size: 1em;
+    }
+    .jumbotron p {
+        font-size: 0.8em;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 769.98px) { 
+    #icon-dell {
+        margin: 1.2em auto;
+    }
+    .navbar {
+       height: 2.3em;
+       margin: 1em auto;
+    }
+
+    .jumbotron .display-4 {
+        margin-top: -1em;
+        font-size: 2em;
+    }
+    .jumbotron h2 {
+        font-size: 1.6em;
+    }
+    .jumbotron p {
+        font-size: 1em;
+    }
+}
+
+/* Medium devices (tablets, 770px and up) */
+@media (min-width: 770px) and (max-width: 991.98px) { 
+    #icon-dell {
+        margin: 1.7em auto;
+    }
+    .navbar {
+       height: 2.9em;
+       margin: 1em auto;
+    }
+    a.nav-link {
+        font-size: 1.1em;
+    }
+
+    .jumbotron .display-4 {
+        margin-top: -1em;
+        font-size: 2.2em;
+    }
+    .jumbotron h2 {
+        font-size: 1.7em;
+    }
+    .jumbotron p {
+        font-size: 1.2em;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    header {
+        margin-top: 0.3em;
+        margin-bottom: 1em;
+        padding: 2%;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+    }
+
+    .navbar {
+        height: 3em;
+    }
+    
+    .jumbotron .display-4 {
+        line-height: 0.2em;
+        margin-bottom: 1em;
+    }
+    .jumbotron h2 {
+        margin-top: 1.2em;
+        font-size: 1.8em;
+    }
+    .jumbotron p {
+        font-size: 1.1em;
+        border-bottom: 1px solid #00000025;
+        padding-bottom: 1em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    header {
+        margin-top: 0.3em;
+        margin-bottom: 1em;
+        padding: 2%;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+    }
+
+    .navbar {
+        height: 3em;
+    }
+    
+    .jumbotron .display-4 {
+        line-height: 0.2em;
+        margin-bottom: 1em;
+    }
+    .jumbotron h2 {
+        margin-top: 1.2em;
+        font-size: 1.8em;
+    }
+    .jumbotron p {
+        font-size: 1.1em;
+        border-bottom: 1px solid #00000025;
+        padding-bottom: 1em;
+    }
+}
+
+/* Style for all devices */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+}
+
+.navbar {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    box-shadow: 1px 1px 10px #00000050;
+    -webkit-box-shadow: 1px 1px 10px #00000050;
+    -moz-box-shadow: 1px 1px 10px #00000050;
+}
+.navbar-light .navbar-brand {
+    margin: 0 auto;
+}
+
+.jumbotron {
+    box-shadow: 1px 1px 10px #00000050;
+    -webkit-box-shadow: 1px 1px 10px #00000050;
+    -moz-box-shadow: 1px 1px 10px #00000050;
+}
+
+/* titulo principal do jumbotron*/
+.jumbotron .display-4 {
+    margin-bottom: 1em;
+}
+/* subtitulos do jumbotron*/
+.jumbotron h2 {
+    margin-top: 1.2em;
+}
+/* paragrafos do jumbotron*/
+.jumbotron p {
+    border-bottom: 1px solid #00000025;
+    padding-bottom: 1em;
+}
+
+/* botão para voltar ao topo da página */
+#btn-topo {
+    float: right;
+    bottom: 15px;
+    right: 35px;
+    position: fixed;
+    color: #3c76ce;
+}

@@ -125,6 +125,13 @@
         border-bottom: 1px solid #00000025;
         padding-bottom: 1em;
     }
+
+    /* footer {
+        height: 4em;
+    }
+    footer .nav{
+        line-height: 3em;
+    } */
 }
 
 /* Style for all devices */
@@ -175,4 +182,18 @@ body {
     right: 35px;
     position: fixed;
     color: #3c76ce;
+}
+
+footer {
+    background: #cccccc60;
+    padding: 1em;
+}
+footer .nav{
+    margin: 0 auto;
+}
+footer ul li a {
+    color: #0000009c;
+}
+footer ul li a:hover {
+    color: #000;
 }
